@@ -1,10 +1,3 @@
-/**
-Muestre el salario más alto, más bajo, salario total y salario promedio por cada tipo de puesto 
-que se tiene en la organización. Etiquete las columnas como «Puesto», «Salario Máximo», «Salario Mínimo», 
-«Salario Total» y «Salario Promedio» respectivamente. Redondee los resultados con dos cifras decimales, 
-con un formato numérico para la moneda de dólares.
-*/
-
 SELECT
 j.job_title AS "Puesto",
 TO_CHAR(ROUND(MAX(e.salary),2),'$99,999.00') AS "Salario Máximo", 

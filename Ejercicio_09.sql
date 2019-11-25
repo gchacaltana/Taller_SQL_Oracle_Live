@@ -1,9 +1,3 @@
-/**
-Generar un reporte que muestre la cantidad de empleados y el salario total de 
-cada departamento de la empresa. Ordenar la información por el departamento que 
-tiene más empleados a menos.
-*/
-
 SELECT
 d.department_name "Departamento",
 COUNT(e.employee_id) "Total Empleados",

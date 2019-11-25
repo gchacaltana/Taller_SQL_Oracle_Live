@@ -1,9 +1,3 @@
-/**
-Elabore un reporte que contenga los nombres, apellidos, puesto, salario y fecha de ingreso 
-de los empleados que le reportan a King, ordenados por su fecha de ingreso a la empresa 
-de manera descendente.
-*/
-
 SELECT
 (e.first_name || ' ' || e.last_name) "Empleado",
 j.job_title "Puesto",

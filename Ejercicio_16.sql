@@ -1,8 +1,3 @@
-/**
-Generar un reporte que muestre la cantidad de empleados que ingresaron en cada año, 
-el costo del salario mensual, anual y el salario promedio por cada año.
-*/
-
 SELECT
 EXTRACT(YEAR FROM hire_date) "Año", 
 COUNT(employee_id) "Empleados que ingresaron",

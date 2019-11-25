@@ -1,7 +1,3 @@
-/**
-Obtener el salario promedio de los empleados que tengan el cargo de «Stock Manager».
-*/
-
 SELECT TO_CHAR(ROUND(AVG(e.salary),2),'$99,999.00') "Salario Promedio Stock Manager"
 FROM hr.employees e
 INNER JOIN hr.jobs j ON e.job_id=j.job_id

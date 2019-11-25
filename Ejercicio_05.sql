@@ -1,10 +1,3 @@
-/**
-Muestre el ID del Manager y el salario del empleado con menos paga para ese manager. 
-Excluya a cualquier empleado cuyo manager sea desconocido. 
-Excluya cualquier puesto donde el salario mínimo sea menor que $6,000. 
-Ordene la salida en orden descendente por salario.
-*/
-
 SELECT
 DISTINCT(m.manager_id) "Manager",
 (

@@ -1,9 +1,3 @@
-/**
-Mostrar los nombres, apellidos, salario actual y el nuevo salario equivalente al 8% adicional 
-de su salario actual de los empleados cuyo salario actual sea igual, menor o mayor hasta por 5% 
-del salario mínimo del puesto. Ordenar resultado por el sueldo actual más alto.
-*/
-
 SELECT
 (e.first_name || ' ' || e.last_name) "Empleado",
 TO_CHAR(ROUND(e.salary, 2),'$99,999.00') "Salario Actual",

@@ -1,8 +1,3 @@
-/**
-Muestre el nombre del Manager, nombre del puesto, nombre de departamento, salario y cantidad 
-de trabajadores que tiene a su cargo. Ordenar según la cantidad de trabajadores en orden descendente.
-*/
-
 SELECT
 (m.first_name || ' ' || m.last_name) "Manager",
 j.job_title "Puesto",

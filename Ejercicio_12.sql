@@ -1,7 +1,3 @@
-/**
-¿Cuál fue el año donde ingresaron más trabajadores?
-*/
-
 SELECT
 TO_CHAR(hire_date, 'YYYY') "Año Contratación",
 COUNT(employee_id) "Empleados"

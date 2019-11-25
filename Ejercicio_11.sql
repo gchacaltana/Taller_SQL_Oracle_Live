@@ -1,7 +1,3 @@
-/**
-Encuentre a los empleados que tienen más de una rotación laboral.
-*/
-
 SELECT (e.first_name || ' ' || e.last_name) "Empleado",
 COUNT(jh.employee_id) "Rotaciones"
 FROM hr.job_history jh

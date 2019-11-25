@@ -1,7 +1,3 @@
-/**
-Generar un reporte incremente en un 20% el salario de los empleados que ingresaron a la empresa entre el año 2003 a 2005.
-*/
-
 SELECT
 (first_name || ' ' || last_name) "Empleado",
 hire_date "Fecha Ingreso",

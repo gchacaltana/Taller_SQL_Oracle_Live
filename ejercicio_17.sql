@@ -1,9 +1,3 @@
-/**
-Generar un reporte que muestre los nombres y apellidos, salario del empleado, el salario mínimo según el cargo del empleado, 
-de aquellos cuya diferencia del salario y el salario mínimo sea menor a S/. 500.00 y además que indique si merece un aumento 
-sólo si la diferencia entre hoy y la fecha de contratación es mayor a 5,000 días. El mismo reporte debe mostrar el nuevo 
-salario que corresponde a un aumento del 15% .
-*/
 SELECT
 e.first_name "Nombres",
 e.last_name "Apellidos",
