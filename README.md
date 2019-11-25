@@ -58,3 +58,39 @@ tiene más empleados a menos.
 
 Muestre el nombre del Manager, nombre del puesto, nombre de departamento, salario y cantidad 
 de trabajadores que tiene a su cargo. Ordenar según la cantidad de trabajadores en orden descendente.
+
+**Ejercicio 11:**
+
+Encuentre a los empleados que tienen más de una rotación laboral.
+
+**Ejercicio 12:**
+
+¿Cuál fue el año donde ingresaron más trabajadores?
+
+**Ejercicio 13:**
+
+Mostrar los nombres, apellidos, salario actual y el nuevo salario equivalente al 8% adicional 
+de su salario actual de los empleados cuyo salario actual sea igual, menor o mayor hasta por 5% 
+del salario mínimo del puesto. Ordenar resultado por el sueldo actual más alto.
+
+**Ejercicio 14:**
+
+Generar un reporte incremente en un 20% el salario de los empleados que ingresaron a la empresa entre el año 2003 a 2005.
+
+**Ejercicio 15:**
+
+Obtener el salario promedio de los empleados que tengan el cargo de «Stock Manager».
+
+**Ejercicio 16:**
+
+Generar un reporte que muestre la cantidad de empleados que ingresaron en cada año, 
+el costo del salario mensual, anual y el salario promedio por cada año.
+
+**Ejercicio 17:**
+
+Generar un reporte que muestre los nombres y apellidos, salario del empleado, el salario mínimo según el cargo del empleado, 
+de aquellos cuya diferencia del salario y el salario mínimo sea menor a S/. 500.00 y además que indique si merece un aumento 
+sólo si la diferencia entre hoy y la fecha de contratación es mayor a 5,000 días. El mismo reporte debe mostrar el nuevo 
+salario que corresponde a un aumento del 15% .
+
+Fuente: [Taller SQL: Consultas SQL en Oracle Database 19C usando Oracle Live SQL](http://www.solocodigoweb.com/blog/2019/11/21/taller-sql-consultas-sql-en-oracle-database-19c-usando-oracle-live-sql/)
