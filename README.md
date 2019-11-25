@@ -3,8 +3,9 @@
 **Ejercicio 01:**
 
 	Muestre el salario más alto, más bajo, salario total de la planilla y salario promedio de la tabla empleados. 
-	Etiquete las columnas como «Salario Máximo», «Salario Mínimo», «Salario Planilla» y «Salario Promedio» respectivamente. 
-	Redondee los resultados al valor entero más cercano, con un formato numérico para la moneda de dólares.
+	Etiquete las columnas como «Salario Máximo», «Salario Mínimo», «Salario Planilla» y 
+	«Salario Promedio» respectivamente. Redondee los resultados al valor entero más cercano, 
+	con un formato numérico para la moneda de dólares.
 
 **Ejercicio 02:**
 
@@ -89,6 +90,8 @@
 
 	Generar un reporte que muestre los nombres y apellidos, salario del empleado, el salario 
 	mínimo según el cargo del empleado, de aquellos cuya diferencia del salario y el salario 
-	mínimo sea menor a S/. 500.00 y además que indique si merece un aumento sólo si la diferencia entre hoy y la fecha de contratación es mayor a 5,000 días. El mismo reporte debe mostrar el nuevo salario que corresponde a un aumento del 15% .
+	mínimo sea menor a S/. 500.00 y además que indique si merece un aumento sólo si la 
+	diferencia entre hoy y la fecha de contratación es mayor a 5,000 días. El mismo reporte 
+	debe mostrar el nuevo salario que corresponde a un aumento del 15% .
 
 Fuente: [Taller SQL: Consultas SQL en Oracle Database 19C usando Oracle Live SQL](http://www.solocodigoweb.com/blog/2019/11/21/taller-sql-consultas-sql-en-oracle-database-19c-usando-oracle-live-sql/)
